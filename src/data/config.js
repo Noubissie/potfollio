@@ -1,8 +1,8 @@
 module.exports = {
   defaultTitle: 'Noubissie Landry',
-  logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
+  logo: 'https://portfolio.smakosh.com/favicon/PHOTO.png',
   author: 'Noubissie Landry',
-  url: 'https://portfolio.smakosh.com',
+  url: 'https://potfollio.vercel.app',
   legalName: 'Noubissie Landry',
   defaultDescription: 'I’m Noubissie Landry a Full Stack Developer!',
   socialLinks: {
