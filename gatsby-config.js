@@ -1,8 +1,9 @@
 const config = require('./src/data/config');
 
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
-});
+// require('dotenv').config({
+//   path: `.env.${process.env.NODE_ENV}`,
+// });
+require("dotenv").config({path:`${__dirname}/.env`})
 
 module.exports = {
   siteMetadata: {
@@ -44,7 +45,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-favicon',
       options: {
-        logo: './static/favicon/favicon-512.png',
+        logo: './static/favicon/PHOTO.png',
         injectHTML: true,
         icons: {
           android: true,
@@ -68,7 +69,7 @@ module.exports = {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'minimal-ui',
-        icon: './static/favicon/favicon-512.png',
+        icon: './static/favicon/PHOTO.png',
       },
     },
     'gatsby-plugin-offline',

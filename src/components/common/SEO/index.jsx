@@ -1,13 +1,13 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Thumbnail from 'assets/thumbnail/thumbnail.png';
+import Thumbnail from 'assets/thumbnail/PHOTO.png';
 import {
   url,
   defaultDescription,
   social,
   defaultTitle,
   socialLinks,
-  address,
+  address, 
   contact,
   legalName,
   foundingDate,
@@ -61,7 +61,7 @@ export const SEO = ({ title = defaultTitle, description = defaultDescription, lo
       <meta property="og:image" content={Thumbnail} />
       <meta property="fb:app_id" content={social.facebook} />
 
-      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:card" content="summary" /> 
       <meta name="twitter:creator" content={socialLinks.twitter} />
       <meta name="twitter:site" content={social.twitter} />
       <meta name="twitter:title" content={title} />
