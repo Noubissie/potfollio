@@ -36,11 +36,15 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: `gatsby-plugin-gtag`,
       options: {
+        // your google analytics tracking id
         trackingId: config.googleAnalyticsID,
+        // Puts tracking script in the head instead of the body
         head: true,
-      },
+        
+        anonymize: true,
+      }
     },
     {
       resolve: 'gatsby-plugin-favicon',
