@@ -55,7 +55,7 @@ export const Projects = () => {
                 <h4>{node.name}</h4>
                 <p>{node.description}</p>
               </Content>
-              <TitleWrap>
+              <TitleWrap> 
                 <Stats theme={theme}>
                   <div>
                     <Star color={theme === "light" ? "#000" : "#fff"} />

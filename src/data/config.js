@@ -1,10 +1,10 @@
 module.exports = {
   defaultTitle: 'Noubissie Landry',
-  logo: 'https://portfolio.smakosh.com/favicon/PHOTO.png',
+  logo: '../assets/thumbnail/metapic.svg',
   author: 'Noubissie Landry',
   url: 'https://potfollio.vercel.app',
   legalName: 'Noubissie Landry',
-  defaultDescription: 'I’m Noubissie Landry a Full Stack Developer!',
+  defaultDescription: 'Noubissie Landry a Full Stack Developer, coder!',
   socialLinks: {
     twitter: 'https://twitter.com/Noubiss95445462',
     github: 'https://github.com/Noubissie',
@@ -13,7 +13,7 @@ module.exports = {
     youtube: '',
     google: '',
   },
-  googleAnalyticsID: 'G-EQ6H4JY2NT',
+  googleAnalyticsID: 'G-EQ6H4JY2NT', 
   themeColor: '#6b63ff',
   backgroundColor: '#6b63ff',
   social: {

@@ -4,13 +4,14 @@ import { ThemeContext } from 'providers/ThemeProvider';
 import { Container } from 'components/common';
 import NavbarLinks from '../NavbarLinks';
 import { Wrapper, Brand } from './styles';
-
+import Logo from "assets/thumbnail/logoAndName.svg"
 const Navbar = () => {
   const { theme } = useContext(ThemeContext);
 
   return (
     <Wrapper as={Container}>
       <Brand as={Link} to="/" theme={theme}>
+        <img src={Logo} alt="mylog"/>
         Noubissie Landry
       </Brand>
       <NavbarLinks desktop />

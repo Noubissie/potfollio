@@ -1,6 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import Thumbnail from 'assets/thumbnail/PHOTO.png';
+import Thumbnail from 'assets/thumbnail/metapic.svg';
 import {
   url,
   defaultDescription,
@@ -30,7 +30,7 @@ export const SEO = ({ title = defaultTitle, description = defaultDescription, lo
 			"@type": "ContactPoint",
 			"email": "${contact.email}",
 			"telephone": "${contact.phone}",
-			"contactType": "customer service"
+			"contactType": "Personal service"
 		}],
 		"address": {
 			"@type": "PostalAddress",

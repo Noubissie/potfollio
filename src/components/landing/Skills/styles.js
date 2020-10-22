@@ -28,7 +28,7 @@ export const Details = styled.div`
     width: 100%;
   }
 
-  h1 {
+  h1 { 
     margin-bottom: 2rem;
     font-size: 26pt;
     color: ${({ theme }) => (theme === 'dark' ? '#fff' : '#212121')};
