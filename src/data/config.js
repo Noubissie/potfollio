@@ -1,6 +1,6 @@
 module.exports = {
   defaultTitle: 'Noubissie Landry',
-  logo: '../assets/thumbnail/metapic.svg',
+  logo: '../../../assets/thumbnail/metapic.png',
   author: 'Noubissie Landry',
   url: 'https://potfollio.vercel.app',
   legalName: 'Noubissie Landry',
